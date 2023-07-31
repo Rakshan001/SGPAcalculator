@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <!-- <script src="main2.js"></script> -->
+</head>
+<body>
+    <center>
+        <h1>SGPA Calculator</h1>
+        <div class="container">
+            <div class="content">
+                <form action="" class="formdata">
+                <table>
+                    <tr>
+                        <th>SUBJECTS</th>
+                        <TH>CREDITS</TH>
+                        <th>MARKS</th>
+                    </tr>
+                    <tr>
+                        <th>Subject1</th>
+                        <td><input type="number" id="credit1"></td>
+                        <td><input type="number" id="marks1"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject2</th>
+                        <td><input type="number" id="credit2" ></td>
+                        <td><input type="number" id="marks2"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject3</th>
+                        <td><input type="number" id="credit3"></td>
+                        <td><input type="number" id="marks3"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject4</th>
+                        <td><input type="number" id="credit4"></td>
+                        <td><input type="number" id="marks4"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject5</th>
+                        <td><input type="number" id="credit5"></td>
+                        <td><input type="number" id="marks5"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject6</th>
+                        <td><input type="number" id="credit6"></td>
+                        <td><input type="number" id="marks6"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject7</th>
+                        <td><input type="number" id="credit7"></td>
+                        <td><input type="number" id="marks7"></td>
+                    </tr>
+                    <tr>
+                        <th>Subject8</th>
+                        <td><input type="number" id="credit8"></td>
+                        <td><input type="number" id="marks8"></td>
+                    </tr>
+                </table>
+            </form>
+
+                <button type="reset" id="reset">RESET</button>
+
+                <button type="submit" onclick="calculate_SGPA()">SUBMIT</button>
+
+            </div>
+        </div>
+        <div class="result">
+            <h1>RESULT:</h1>
+            <p id="result"></p>
+        </div>
+    </center>
+</body>
+</html>
