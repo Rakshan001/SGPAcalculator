@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+    background-color: lightblue;
+    width: 50%; /* Uncomment this line to span full width */
+    padding: 5px; /* Adjust padding */
+    box-shadow: 38px 38px 15px rgba(0,0,0,0.8);
+    border-radius: 15px; /* Increase or decrease border radius */
+    margin: 0 auto;
+     /* Center the table horizontally */
+     border: none;
+}
+
+input {
+    border: none;
+    font-size: 2rem; /* Adjust font size */
+    padding: 5px; /* Adjust padding */
+}
+
+tr{
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+button {
+    background-color: aquamarine;
+    padding: 0.5rem 1rem; /* Adjust padding */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    box-shadow: 18px 18px 10px rgba(0,0,0,0.8);
+}
+
+h1{
+    font-size: 4rem;
+    color: rgb(78, 78, 214);
+    margin: 0.5rem;
+    padding: 0;
+
+}
+p{
+    font-size: 2.5rem;
+    color: rgb(16, 241, 166);
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    box-shadow: 8px 8px 100px rgba(0,0,0,0.8);
+
+}
+
+
+button:hover{
+    background-color: rgb(239, 241, 240);
+ 
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for screens with a max width of 768px */
+    table {
+        width: 100%;
+        margin-right: 5rem; /* Make the table span full width */
+    }
+
+    /* Adjust font sizes for smaller screens */
+    input,
+    tr {
+        font-size: 1.5rem;
+        width: 4rem;
+        margin: 0;
+        /* padding: 0; */
+    }
+    input{
+        width: 8rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
