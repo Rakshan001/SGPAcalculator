@@ -85,6 +85,10 @@ function calculate_SGPA() {
 
     document.getElementById("result").innerText = `Your SGPA is: ${SGPA}`;
 
+    var percentage = ((SGPA *10)-SGPA);
+
+    document.getElementById("percentage").innerText = `Your Percentage is: ${percentage}`;
+
     const form=document.getElementById("formdata");
     form.reset();
 }

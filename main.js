@@ -55,6 +55,9 @@ function calculate_SGPA() {
     var SGPA = (total_points / total_credit).toFixed(2);
 
     document.getElementById("result").innerText = `Your SGPA is: ${SGPA}`;
+    var percentage = ((SGPA *10)-SGPA);
+
+    document.getElementById("percentage").innerText = `Your Percentage is: ${percentage}`;
 
     // Clear the input fields without affecting the result paragraph
     // const form = document.getElementById("sgpaForm");
